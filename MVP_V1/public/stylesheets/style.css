@@ -1,0 +1,83 @@
+.container{
+  max-width: 1200px;
+  padding: 30px;
+  margin: auto;    
+}
+.comment-block{
+  margin: 50px 0;
+}
+.comment-form{
+  display: flex;
+}
+.user-part{
+  width: 5%;
+}
+.user-part img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.submit-part{
+  width: 95%;
+  display: flex;
+  align-items: center;
+}
+.submit-part .text{
+  width: 85%;
+  padding: 0 15px;
+}
+.submit-part input{
+  line-height: 2rem;    
+  padding: 8px 20px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  border-radius: 7px;
+  width: -webkit-fill-available;
+}
+.submit-part input:focus{
+  outline: none;
+}
+.submit-part .btn{
+  width: 15%;
+}
+.submit-btn{
+  background: #693eed;
+  color: #fff;
+}
+.submit-btn:hover{
+  cursor: pointer;
+}
+.list-block{
+  padding-top: 30px;
+  border-top: 1px solid #ccc; 
+}
+.list-item{
+  display: flex;
+  padding: 20px 0;
+}
+.list-item .comment-reply-part{
+  width: 95%;
+  padding: 5px 20px;
+}
+.list-item .centerDot{
+  margin: 0 10px;
+}
+.list-item .text{
+  padding: 7px 0;
+}
+.list-item a{
+  text-decoration: none;
+  margin-right: 30px;
+  color: #000;
+  font-weight: bold;
+}
+.list-item .time, .list-item a{
+  color: #555;
+}
+.upvote-reply{
+  padding: 10px 0;
+}
+.bold{
+  font-weight: bold;
+}
